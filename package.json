@@ -9,6 +9,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.3.2"
+    "@nuxtjs/eslint-module": "^4.0.2",
+    "@nuxtjs/stylelint-module": "^5.0.1",
+    "@unocss/nuxt": "^0.50.6",
+    "eslint": "^8.37.0",
+    "nuxt": "^3.3.2",
+    "stylelint": "^15.3.0"
+  },
+  "dependencies": {
+    "ohmyfetch": "^0.4.21"
   }
 }
