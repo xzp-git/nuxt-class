@@ -14,7 +14,8 @@
     "@unocss/nuxt": "^0.50.6",
     "eslint": "^8.37.0",
     "nuxt": "^3.3.2",
-    "stylelint": "^15.3.0"
+    "stylelint": "^15.3.0",
+    "unplugin-auto-import": "^0.15.2"
   },
   "dependencies": {
     "ohmyfetch": "^0.4.21"

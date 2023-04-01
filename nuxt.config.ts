@@ -1,5 +1,15 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import AutoImport from "unplugin-auto-import/vite";
+
 export default defineNuxtConfig({
+  experimental: {
+    reactivityTransform: true,
+  },
+  plugins: [
+    AutoImport({
+      imports: ["vue"],
+      dts: "src/auto-imports.d.ts",
+    }),
+  ],
   modules: [
     "@nuxtjs/eslint-module",
     "@nuxtjs/stylelint-module",
